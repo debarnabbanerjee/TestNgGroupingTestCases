@@ -1,0 +1,73 @@
+SeleniumTrainingCITesting
+tutorial -- https://help.github.com/articles/generating-ssh-keys/
+http://stackoverflow.com/questions/20654719/push-eclipse-project-to-github-with-egit
+http://stackoverflow.com/questions/8961334/how-to-change-folder-with-git-bash
+
+
+**** JEKINS COMMANDS
+To start Jenkis
+cd to the location where you have jenkins
+java -jar jenkins.war
+echo %time% in command prompt is used to display time .
+
+
+***** For building periodically . H stands as a generic term  ( H is equivalent to 0-59 )
+
+H/5 * * * *    --> every 5 minutes
+0-59/1 * * * * --> every 1 minutes
+H/1 * * * *
+0-0 5 * * * every morning at 5 AM
+0-0 5 * * 3 evry wednesday morning 5 am
+
+**** For configurig Git as a plugin inside Jekins
+
+Go to Manage Jenkis > Plugin > Avalable Plugin and search for Git Plugin and then click dowload now and restart after install.
+After istallig enable auto refresh and restart jenkins and then give the path of the Git exe from the cmd folder inside git in program files .
+
+
+CONFIGURING GIT FRM GITBASH USING SSH KEYS
+
+
+mkdir .ssh
+cd .ssh
+ssh-keygen -t rsa -C "banerjee.debarnab@gmail.com"
+ssh -v git@github.com
+ADD THE SSH KEY INT GITHUB
+copy the .ssh folder frm the user directory to program file and inside git folder.
+OPEN ANOTHER COMMAND PROMPT
+copy the path of the bin folder of the git and go inside it using command prompt.
+ssh.exe -T git@github.com
+give double slash and go to the location of the project which i would like to upload.
+
+
+echo # My-Test-Project-1 >> README.md
+git init
+git add README.md
+
+git add .
+git commit -m "first commit"
+git remote add origin git@github.com:debarnabbanerjee/My-Test-Project-1.git
+git push -u origin master
+
+
+************************
+
+git config --global user.email "banerjee.debarnab@gmail.com"
+git config --global user.name "Debarnab"
+
+
+
+can watch conivingcanadian git tutorial video in youtube
+
+
+a
+
+COMMANDS :- 
+
+One time 
+
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:debarnabb/MyRepSelenium.git
+git push -u origin master
