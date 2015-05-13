@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="171" started-at="2015-05-13T08:31:51Z" finished-at="2015-05-13T08:31:51Z">
+    <groups>
+      <group name="Scooter">
+        <method signature="groupingClass.Scooter1()[pri:0, instance:testCases.groupingClass@7c75222b]" name="Scooter1" class="testCases.groupingClass"/>
+        <method signature="groupingClass.Scooter2()[pri:0, instance:testCases.groupingClass@7c75222b]" name="Scooter2" class="testCases.groupingClass"/>
+      </group> <!-- Scooter -->
+      <group name="Car">
+        <method signature="groupingClass.Car1()[pri:0, instance:testCases.groupingClass@35851384]" name="Car1" class="testCases.groupingClass"/>
+        <method signature="groupingClass.Car2()[pri:0, instance:testCases.groupingClass@35851384]" name="Car2" class="testCases.groupingClass"/>
+        <method signature="groupingClass.Sedan1()[pri:0, instance:testCases.groupingClass@35851384]" name="Sedan1" class="testCases.groupingClass"/>
+      </group> <!-- Car -->
+      <group name="Sedan Car">
+        <method signature="groupingClass.Sedan1()[pri:0, instance:testCases.groupingClass@35851384]" name="Sedan1" class="testCases.groupingClass"/>
+      </group> <!-- Sedan Car -->
+    </groups>
+    <test name="Practice Grouping" duration-ms="51" started-at="2015-05-13T08:31:51Z" finished-at="2015-05-13T08:31:51Z">
+      <class name="testCases.groupingClass">
+        <test-method status="PASS" signature="Car1()[pri:0, instance:testCases.groupingClass@35851384]" name="Car1" duration-ms="11" started-at="2015-05-13T14:01:51Z" finished-at="2015-05-13T14:01:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Car1 -->
+        <test-method status="PASS" signature="Car2()[pri:0, instance:testCases.groupingClass@35851384]" name="Car2" duration-ms="10" started-at="2015-05-13T14:01:51Z" finished-at="2015-05-13T14:01:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Car2 -->
+        <test-method status="PASS" signature="Sedan1()[pri:0, instance:testCases.groupingClass@35851384]" name="Sedan1" duration-ms="0" started-at="2015-05-13T14:01:51Z" finished-at="2015-05-13T14:01:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sedan1 -->
+      </class> <!-- testCases.groupingClass -->
+    </test> <!-- Practice Grouping -->
+    <test name="Practice Grouping second " duration-ms="20" started-at="2015-05-13T08:31:51Z" finished-at="2015-05-13T08:31:51Z">
+      <class name="testCases.groupingClass">
+        <test-method status="PASS" signature="Scooter1()[pri:0, instance:testCases.groupingClass@7c75222b]" name="Scooter1" duration-ms="10" started-at="2015-05-13T14:01:51Z" finished-at="2015-05-13T14:01:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scooter1 -->
+        <test-method status="PASS" signature="Scooter2()[pri:0, instance:testCases.groupingClass@7c75222b]" name="Scooter2" duration-ms="0" started-at="2015-05-13T14:01:51Z" finished-at="2015-05-13T14:01:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scooter2 -->
+      </class> <!-- testCases.groupingClass -->
+    </test> <!-- Practice Grouping second  -->
+  </suite> <!-- Suite -->
+</testng-results>
