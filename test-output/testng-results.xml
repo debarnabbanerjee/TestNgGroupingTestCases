@@ -2,48 +2,48 @@
 <testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="171" started-at="2015-05-13T08:31:51Z" finished-at="2015-05-13T08:31:51Z">
+  <suite name="Suite1" duration-ms="542" started-at="2015-05-14T18:12:37Z" finished-at="2015-05-14T18:12:38Z">
     <groups>
       <group name="Scooter">
-        <method signature="groupingClass.Scooter1()[pri:0, instance:testCases.groupingClass@7c75222b]" name="Scooter1" class="testCases.groupingClass"/>
-        <method signature="groupingClass.Scooter2()[pri:0, instance:testCases.groupingClass@7c75222b]" name="Scooter2" class="testCases.groupingClass"/>
+        <method signature="groupingClass.Scooter1()[pri:0, instance:testCases.groupingClass@6debcae2]" name="Scooter1" class="testCases.groupingClass"/>
+        <method signature="groupingClass.Scooter2()[pri:0, instance:testCases.groupingClass@6debcae2]" name="Scooter2" class="testCases.groupingClass"/>
       </group> <!-- Scooter -->
       <group name="Car">
-        <method signature="groupingClass.Car1()[pri:0, instance:testCases.groupingClass@35851384]" name="Car1" class="testCases.groupingClass"/>
-        <method signature="groupingClass.Car2()[pri:0, instance:testCases.groupingClass@35851384]" name="Car2" class="testCases.groupingClass"/>
-        <method signature="groupingClass.Sedan1()[pri:0, instance:testCases.groupingClass@35851384]" name="Sedan1" class="testCases.groupingClass"/>
+        <method signature="groupingClass.Car1()[pri:0, instance:testCases.groupingClass@3aa9e816]" name="Car1" class="testCases.groupingClass"/>
+        <method signature="groupingClass.Car2()[pri:0, instance:testCases.groupingClass@3aa9e816]" name="Car2" class="testCases.groupingClass"/>
+        <method signature="groupingClass.Sedan1()[pri:0, instance:testCases.groupingClass@3aa9e816]" name="Sedan1" class="testCases.groupingClass"/>
       </group> <!-- Car -->
       <group name="Sedan Car">
-        <method signature="groupingClass.Sedan1()[pri:0, instance:testCases.groupingClass@35851384]" name="Sedan1" class="testCases.groupingClass"/>
+        <method signature="groupingClass.Sedan1()[pri:0, instance:testCases.groupingClass@3aa9e816]" name="Sedan1" class="testCases.groupingClass"/>
       </group> <!-- Sedan Car -->
     </groups>
-    <test name="Practice Grouping" duration-ms="51" started-at="2015-05-13T08:31:51Z" finished-at="2015-05-13T08:31:51Z">
+    <test name="Practice Grouping" duration-ms="69" started-at="2015-05-14T18:12:37Z" finished-at="2015-05-14T18:12:38Z">
       <class name="testCases.groupingClass">
-        <test-method status="PASS" signature="Car1()[pri:0, instance:testCases.groupingClass@35851384]" name="Car1" duration-ms="11" started-at="2015-05-13T14:01:51Z" finished-at="2015-05-13T14:01:51Z">
+        <test-method status="PASS" signature="Car1()[pri:0, instance:testCases.groupingClass@3aa9e816]" name="Car1" duration-ms="47" started-at="2015-05-14T23:42:37Z" finished-at="2015-05-14T23:42:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Car1 -->
-        <test-method status="PASS" signature="Car2()[pri:0, instance:testCases.groupingClass@35851384]" name="Car2" duration-ms="10" started-at="2015-05-13T14:01:51Z" finished-at="2015-05-13T14:01:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Car2 -->
-        <test-method status="PASS" signature="Sedan1()[pri:0, instance:testCases.groupingClass@35851384]" name="Sedan1" duration-ms="0" started-at="2015-05-13T14:01:51Z" finished-at="2015-05-13T14:01:51Z">
+        <test-method status="PASS" signature="Sedan1()[pri:0, instance:testCases.groupingClass@3aa9e816]" name="Sedan1" duration-ms="0" started-at="2015-05-14T23:42:38Z" finished-at="2015-05-14T23:42:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Sedan1 -->
-      </class> <!-- testCases.groupingClass -->
-    </test> <!-- Practice Grouping -->
-    <test name="Practice Grouping second " duration-ms="20" started-at="2015-05-13T08:31:51Z" finished-at="2015-05-13T08:31:51Z">
-      <class name="testCases.groupingClass">
-        <test-method status="PASS" signature="Scooter1()[pri:0, instance:testCases.groupingClass@7c75222b]" name="Scooter1" duration-ms="10" started-at="2015-05-13T14:01:51Z" finished-at="2015-05-13T14:01:51Z">
+        <test-method status="PASS" signature="Car2()[pri:0, instance:testCases.groupingClass@3aa9e816]" name="Car2" duration-ms="0" started-at="2015-05-14T23:42:38Z" finished-at="2015-05-14T23:42:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Scooter1 -->
-        <test-method status="PASS" signature="Scooter2()[pri:0, instance:testCases.groupingClass@7c75222b]" name="Scooter2" duration-ms="0" started-at="2015-05-13T14:01:51Z" finished-at="2015-05-13T14:01:51Z">
+        </test-method> <!-- Car2 -->
+      </class> <!-- testCases.groupingClass -->
+    </test> <!-- Practice Grouping -->
+    <test name="Practice Grouping second " duration-ms="2" started-at="2015-05-14T18:12:38Z" finished-at="2015-05-14T18:12:38Z">
+      <class name="testCases.groupingClass">
+        <test-method status="PASS" signature="Scooter2()[pri:0, instance:testCases.groupingClass@6debcae2]" name="Scooter2" duration-ms="0" started-at="2015-05-14T23:42:38Z" finished-at="2015-05-14T23:42:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Scooter2 -->
+        <test-method status="PASS" signature="Scooter1()[pri:0, instance:testCases.groupingClass@6debcae2]" name="Scooter1" duration-ms="0" started-at="2015-05-14T23:42:38Z" finished-at="2015-05-14T23:42:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scooter1 -->
       </class> <!-- testCases.groupingClass -->
     </test> <!-- Practice Grouping second  -->
-  </suite> <!-- Suite -->
+  </suite> <!-- Suite1 -->
 </testng-results>
